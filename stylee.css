@@ -1,0 +1,184 @@
+
+
+#indexborder {
+    margin-top: 10%;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-shadow: 1px 1px 1px;
+}
+
+
+
+#adddiv4 {
+    border: solid gray 2px;
+    box-shadow: 15px 15px 15px;
+    margin-top: 3%;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 20%;
+    border-radius: 15px;
+    font-family: system-ui;
+    text-shadow: 1px 1px 1px;
+}
+
+/*#adddiv4:hover {
+    background-color: beige;
+    position: relative;
+    left: 19%;
+    top: -1%;
+    
+
+
+}*/
+
+#addbutton {
+    background-color: rgb(151, 92, 147);
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px;
+}
+
+#addbutton:hover {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(201, 157, 198);
+    
+}
+
+#indexbutton {
+    background-color: rgb(151, 92, 147);
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px;
+}
+
+#indexbutton:hover {
+    background-color: rgb(201, 157, 198);
+    height: 40px;
+    width: 130px;
+    
+}
+
+.editbody {
+    
+    text-shadow: 1px 1px 1px;
+}
+
+#editdiv1 {
+    border: solid gray 2px;
+    box-shadow: 15px 15px 15px;
+    margin-top: 3%;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 20%;
+    border-radius: 15px;
+    
+    text-shadow: 1px 1px 1px;
+}
+
+/*#editdiv1:hover {
+    background-color: beige;
+    position: relative;
+    left: 19%;
+    top: -1%;
+
+}
+*/
+#editbutton {
+    background-color: rgb(151, 92, 147);
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px;
+
+}
+
+#editbutton:hover {
+
+    background-color: rgb(201, 157, 198);
+    height: 40px;
+    width: 130px;
+    
+
+}
+
+#indexdiv2 {
+    width: 1250px;
+    border: solid gray 2px;
+    box-shadow: 15px 15px 15px;
+    border-radius: 15px;
+    
+    text-shadow: 1px 1px 1px;
+}
+
+#indexdiv2:hover {
+    background-color: beige;
+    position: relative;
+    left: -1%;
+    top: -2%;
+    
+    
+
+}
+body {
+	background: linear-gradient(32deg, gray, #3f77b1, pink, #000b3e);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: system-ui;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#out{
+    
+    text-align:center;
+    font-family: system-ui;
+}
+#signout{
+    border:2px solid gray;
+    color:aliceblue;
+    border-radius: 10px;
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: violet;
+    box-shadow: 5px 5px 5px black;
+    text-decoration : none;
+    font-family: system-ui;
+}
+
+#try{
+    border:2px solid gray;
+    color:rgb(224, 88, 38);
+    border-radius: 10px;
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(238, 238, 104);
+    box-shadow: 5px 5px 5px black;
+    text-decoration:none;
+    margin: auto;
+    font-size: 30px;
+    margin-left:45%;
+    font-family: system-ui;
+}
+#remember{
+    font-size: 30px;
+    margin-top:200px;
+    text-align: center;
+    font-family: system-ui;
+}
